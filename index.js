@@ -1,7 +1,5 @@
 function reverseNumber(num) {
-    if (num < 0) {
-      return false
-    }
+
   
     let reversed = 0;
     let number = num;
@@ -15,4 +13,4 @@ function reverseNumber(num) {
     return reversed === number;
   
   }
-    console.log(reverseNumber(121121)); 
+    console.log(reverseNumber(121)); 
