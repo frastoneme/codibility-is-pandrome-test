@@ -1,4 +1,4 @@
-function reverseNumber(num) {
+function palindrome(num) {
 
   
     let reversed = 0;
@@ -10,7 +10,7 @@ function reverseNumber(num) {
        num = Math.trunc(num / 10); // Remove the last digit
     }
   
-    return reversed === number;
+    return number === reversed;
   
   }
-    console.log(reverseNumber(121)); 
+    console.log(palindrome(121)); 
